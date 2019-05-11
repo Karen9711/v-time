@@ -8,5 +8,6 @@ var app = new Vue({
     // 1hour-1day  以前显示 xx小时前
     // 1day-1month  以前显示 xx天前
     // 1month+  以前显示 x年x月x日
+    birthday:((new Date('1997-11-01')).getTime()),
   }
 })
